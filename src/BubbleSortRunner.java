@@ -1,6 +1,8 @@
-public class BubbleSortRunner {
-    public static void main(String[] args){
-        int[] testArr = [2,3,5,9,1,2,3,5];
+public class BubbleSortRunner
+{
+    public static void main(String[] args)
+    {
+        int[] testArr = new int[]{2,3,5,9,1,2,3,5};
 
         System.out.println("Before: ");
         for(int num:testArr){
@@ -8,7 +10,7 @@ public class BubbleSortRunner {
         }
         System.out.println();
 
-        utils.bubbleSort(testArr);
+        BubbleSort.bubbleSort(testArr);
 
         System.out.println("After:");
         for(int num:testArr){
