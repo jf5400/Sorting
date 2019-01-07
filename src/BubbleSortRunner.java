@@ -10,7 +10,7 @@ public class BubbleSortRunner
         }
         System.out.println();
 
-        BubbleSort.bubbleSort(testArr);
+        utils.bubbleSort(testArr);
 
         System.out.println("After:");
         for(int num:testArr){
